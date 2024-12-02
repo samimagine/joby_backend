@@ -1,0 +1,13 @@
+type Query {
+  files(cardId: ID!): [File!]!
+}
+
+type File {
+  id: ID!
+  category: String!
+  name: String!
+  date: String!
+  description: String!
+  type: String!
+  thumbnail: String!
+}
