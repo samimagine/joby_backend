@@ -4,7 +4,7 @@
   "description": "",
   "main": "api/graphql.js",
   "scripts": {
-    "build": "vercel build"
+    "start": "node api/graphql.js"
   },
   "dependencies": {
     "@apollo/server": "^4.11.2",
