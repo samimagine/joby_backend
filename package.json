@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "api/graphql.js",
+  "scripts": {
+    "build": "vercel build"
+  },
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "@vercel/node": "^3.2.27",
