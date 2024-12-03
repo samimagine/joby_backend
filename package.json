@@ -2,10 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
- "main": "api/graphql.js",
+  "main": "api/graphql.js",
   "dependencies": {
-    "@apollo/server": "^4.5.0",
-    "@vercel/node": "^2.11.0",
-    "graphql": "^16.6.0"
+    "@apollo/server": "^4.11.2",
+    "@vercel/node": "^3.2.27",
+    "graphql": "^16.9.0"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
